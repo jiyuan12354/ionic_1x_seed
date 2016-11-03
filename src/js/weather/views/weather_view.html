@@ -1,0 +1,20 @@
+<ion-view title="{{item.location.name}}">
+
+	<ion-content padding="false" class="has-header">
+
+		<div class="list card">
+			<div class="item">
+				<h2>{{item.now.text}}</h2>
+				<p>{{item.now.temperature}} 度</p>
+			</div>
+
+			<div class="item item-body">
+				<img class="full-image" src="img/weather/{{item.now.code}}.png">
+				<p>
+					更新时间 {{item.last_update | date: 'yyyy/MM/dd'}}
+				</p>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>

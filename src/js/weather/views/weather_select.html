@@ -1,0 +1,28 @@
+<ion-view title="地区选择">
+
+	<ion-content padding="false" class="has-header">
+
+		<ion-refresher
+			pulling-text="下拉刷新..."
+			on-refresh="doRefresh()">
+		</ion-refresher>
+
+		<ion-list>
+			<ion-item ng-repeat="item in items" ui-sref="weatherView({zone: item.zone})">
+				{{item.desc}}
+			</ion-item>
+			<ion-item ng-if="!hasmore" class="nomore">
+				没有更多
+			</ion-item>
+		</ion-list>
+
+		<ion-infinite-scroll
+			ng-if="hasmore"
+			on-infinite="loadMore()"
+			distance="5%"
+			immediate-check="false"
+			>
+		</ion-infinite-scroll>
+
+	</ion-content>
+</ion-view>

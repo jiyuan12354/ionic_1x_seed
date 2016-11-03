@@ -1,0 +1,23 @@
+{
+	"name": "ionic_1x_seed",
+	"app_id": "",
+	"gulpStartupTasks": [
+		"build"
+	],
+	"proxies": [
+		{
+			"path": "/api/weather",
+			"proxyUrl": "https://api.thinkpage.cn/v3/weather"
+		},{
+			"path": "/api",
+			"proxyUrl": "http://119.61.64.104:8777/api-mobile/api"
+		}
+	],
+	"browsers": [
+		{
+			"platform": "android",
+			"browser": "crosswalk",
+			"version": "12.41.296.5"
+		}
+	]
+}
