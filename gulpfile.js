@@ -37,7 +37,7 @@ var paths = {
 	src_js: ['src/js/**/*.js'],
 	src_css: ['src/css/**/*.css'],
 	src_img: ['src/img/**/*'],
-	src_pub: ['src/pub/**/*'],
+	src_pub: ['src/pub/**/*', 'js_lib/ngCordova/dist/ng-cordova.min.js'],
 	src_font: ['js_lib/ionic/fonts/*.*'],
 	src_template: ['src/js/**/*.html'],
 	src_index_html: 'src/index.html',

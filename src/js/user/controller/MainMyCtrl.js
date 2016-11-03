@@ -1,5 +1,5 @@
 //我的-首页
-app.controller('MainMyCtrl', function($scope, UserService, UTIL_USER, $cordovaCamera, UTIL_DIALOG, $state, APPCONFIG) {
+app.controller('MainMyCtrl', function($scope, $cordovaCamera, $state, APPCONFIG) {
 
 	//上传头像
 	$scope.clickTop = function(){

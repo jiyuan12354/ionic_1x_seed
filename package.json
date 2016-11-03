@@ -22,15 +22,6 @@
     "gulp-useref": "^3.1.2",
     "gulp-zip": "^3.2.0"
   },
-  "cordovaPlugins": [
-    "cordova-plugin-whitelist",
-    "cordova-plugin-console",
-    "cordova-plugin-device",
-    "cordova-sqlite-storage",
-    "cordova-plugin-camera",
-    "cordova-plugin-splashscreen",
-    "ionic-plugin-keyboard"
-  ],
   "cordovaPlatforms": [
     "android"
   ]
