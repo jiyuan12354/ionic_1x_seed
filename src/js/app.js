@@ -165,9 +165,9 @@ app.constant('APPCONFIG', {
 	IS_WEB: false,// 是否web发布（影响部分web不支持的功能）
 	//服务端接口地址
 	// 本地
-	//SERVER_URL_PRE: "http://localhost:8100/api",
+	SERVER_URL_PRE: "http://localhost:8100/api",
 	// 发布
-	SERVER_URL_PRE: "https://api.thinkpage.cn/v3",
+	//SERVER_URL_PRE: "https://api.thinkpage.cn/v3",
 
 	PAGE_SIZE: 10,
 	//本地数据库
